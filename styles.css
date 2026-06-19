@@ -103,6 +103,11 @@ h1, h2, h3 {
   color: var(--patina-deep);
   margin-bottom: 1.1rem;
 }
+.hero .eyebrow {
+  font-size: 0.95rem;
+  letter-spacing: 0.2em;
+  margin-bottom: 1.4rem;
+}
 
 .lead {
   font-size: clamp(1.125rem, 1.4vw, 1.3rem);
