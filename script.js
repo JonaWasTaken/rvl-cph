@@ -162,7 +162,7 @@
       const body =
         "Name: " + name + "\n" +
         "Email: " + email + "\n" +
-        "Organization: " + (org || "—") + "\n\n" +
+        "Affiliation: " + (org || "—") + "\n\n" +
         message;
       window.location.href =
         "mailto:" + CONTACT_EMAIL +
@@ -201,7 +201,7 @@
           body: JSON.stringify({
             name: name,
             email: email,
-            organization: org || "—",
+            Affiliation: org || "—",
             message: message,
             _subject: "New inquiry via RVL-CPH — " + name,
             _template: "table",
